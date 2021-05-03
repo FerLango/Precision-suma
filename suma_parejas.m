@@ -1,5 +1,14 @@
-x = [1:10];
-
+%% Valor inicial
+n=10^5
+%n=10^6
+%n=10^7
+%n=10^8
+%% Vector x
+x=[];
+for i=1:n
+    x(i)=1/i^2;
+end
+x;
 %% Parejas
 parejas=x;
 while length(parejas)~=1
