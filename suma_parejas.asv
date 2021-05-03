@@ -1,7 +1,7 @@
 x = [1:10];
 
 %% Parejas
-parejas=x;
+parejas=x
 while length(parejas)~=1
     aux=[];
     for i=1:length(parejas)/2
@@ -22,7 +22,7 @@ for i=1:length(tradicional)
 end
 tradicional=aux
 
-
+    
     
     
     
